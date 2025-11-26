@@ -17,4 +17,13 @@ let enimi = "Mattias"
 let pnimi = "Elmers"
 console.log ("Mattias Elmers nime tähed on " + enimi[0] + "." + pnimi[0] + ".")
 
-let nimi = pnimi + "," + enimi
+let nimi = "Mattias,Elmers"
+console.log(nimi)
+console.log("perenime pikkus: " + nimi.split(",")[1].length);
+
+let mail = "mattias.elmers@netlog.com"
+console.log(mail.replaceAll("netlog", "gmail"));
+
+let andmerida = "1,Marshal,Martinovic,mmartinovic0@netlog.com,Male,40.19.226.175"
+
+console.log(andmerida.split(",")[5] + " ja " + andmerida.split(",")[3].split("@")[0])
