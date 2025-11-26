@@ -13,7 +13,7 @@ console.log(aeg)
 let tsitaat = "pull out"
 console.log ("Ott Tammik: " + tsitaat)
 
-let enimi = "Mattias"
+let enimi = "lMattias"
 let pnimi = "Elmers"
 console.log ("Mattias Elmers nime tähed on " + enimi[0] + "." + pnimi[0] + ".")
 
