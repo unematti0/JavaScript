@@ -1,14 +1,19 @@
 const tooted = ["Õunad", "Piim", "Leib", "Juust", "Tomatid", "Kanafilee", "Muna", "Sibul", "Apelsinid", "Riis", "Jogurt", "Kartul", "Kalafilee", "Pasta", "Jogurtijook", "Porgandid", "Virsikud", "Pähklid", "Rosinad", "Kapsas", "Kreeka jogurt", "Veiseliha", "Banaanid", "Oliivid", "Mandlid", "Magus kartul", "Greibid"];
 const ingnoreeri = ["Riis", "Muna", "Sibul"]
-tooted.forEach(nummerdus)
 
-function nummerdus(toode, index){
-     if (ingnoreeri.includes(toode)) {
-    return;
+
+for (let i = 0; i < tooted.length; i++) {
+   if(ingnoreeri.includes(tooted[i])){
+  //  mitte midagi
+  }else{
+
+    console.log(i+1 +". "+ tooted[i])
   }
-
-    console.log((index + 1) + ". " + toode)
+  
 }
+
+
+
 
 const temperatures = [
 [5, 8, 12, 10, 7, 9, 11, 14, 16, 13, 10, 6, 4, 3, 2, 4, 6, 8, 10, 12, 15, 17, 18, 16, 13, 10],
